@@ -16,4 +16,5 @@ steps:
 - script: |
     ls
     ifconfig
+    df -h
   displayName: 'Run a multi-line script'
